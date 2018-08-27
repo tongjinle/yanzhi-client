@@ -1,0 +1,15 @@
+<view class='container'>
+  <view class="user-avatar">
+    <image src="{{userAvatar}}"></image>
+  </view>
+  <text class='user-name'>Hello, {{nickName}}</text>
+  <view class='moto-container' bindtap='onTap'>
+    <!-- <text class='moto' catchtap='console.log("阻止冒泡")'>开启小程序</text> -->
+    <text class='moto'>开启小程序</text>
+  </view>
+  <!-- <web-view src="https://720yun.com/t/dac27qsvwun?scene_id=1099820"></web-view> -->
+  <!-- <web-view style="border-style:none;" src="https://cdn.pannellum.org/2.4/pannellum.htm?panorama=https://pannellum.org/images/alma.jpg"></web-view> -->
+  <!-- <web-view style="border-style:none;" src="{{iframeSrc}}"></web-view> -->
+
+  <view id='panorama'></view>
+</view>
